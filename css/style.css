@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  margin-top: 100px;
+  border: 1px solid #252525;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  position: relative;
+}
+
+.box {
+  border: 1px solid #252525;
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  font-size: 35px;
+  cursor: pointer;
+}
+.win {
+    background-color: rgb(37, 191, 37);
+    font-weight: bold;
+  }
+  .refresh_btn{
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 15%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
